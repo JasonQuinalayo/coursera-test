@@ -1,0 +1,92 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+body {
+  margin: 0;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%;
+}
+
+h2 {
+  width: 35%;
+  text-align: center;
+  padding: 5px;
+  margin: 0px 0px 15px 0px;
+  border: solid black;
+  border-width: 1px;  
+  font-size: 125%;
+  float: right;
+}
+.chicken{
+  background-color: #FFC0CB;
+}
+.beef{
+  background-color: #FF6961;
+}
+.sushi{
+  background-color: #D2B48C;
+}
+
+div > div > p {
+  clear: right;
+}
+
+div > div{
+  margin: 12px;
+}
+
+body{
+  padding: 12px;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    background: #A9A9A9;
+    float: left;
+    border: 1px solid black;
+    padding: 0px 0px 0px 10px;
+  }
+  .col-lg-4 {
+    width: calc(33.33% - 24px);
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    background: #A9A9A9;
+    float: left;
+    border: 1px solid black;
+    padding: 0px 0px 0px 10px;
+  }
+  .col-md-6 {
+    width: calc(50% - 24px);
+  }
+  .col-md-12 {
+    width: calc(100% - 24px);
+  }
+}
+/********** Small devices *********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    background: #A9A9A9;
+    float: left;
+    border: 1px solid black;
+    padding: 0px 0px 0px 10px;
+  }
+  .col-sm-12 {
+    width: calc(100% - 24px);
+  }
+}
