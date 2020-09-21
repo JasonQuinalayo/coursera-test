@@ -1,0 +1,55 @@
+body {
+  font-family: 'Overlock', cursive;
+}
+#companyname{
+  font-size:33px;
+}
+#section{
+  padding: 0px 35px 35px 35px;
+}
+#header-nav {
+  background-color: #C4C3C2;
+}
+#last-item{
+  margin-top: -30px;
+}
+#nav-list{
+  background-color: #CB9090;
+  margin: 0;
+  padding: 7.5px 0px 7.5px 0px;
+}
+#collapsable-nav{
+  padding:0;
+}
+#hr1{
+  margin-bottom: 7px;
+}
+#hr2{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+#first-item{
+  margin-top:-30px;
+  margin-bottom: 10px;
+}
+#companyname{
+  color: #4C2E2E;
+}
+#nav-list{
+  font-size: 20px;
+}
+#section{
+  background-color: #C4C3C2;
+}
+div > div > p {
+  margin-top: 20px;
+}
+div > h2 {
+  margin-bottom: 30px;
+}
+div > ul > li {
+  margin-top: -50px;
+}
+hr{
+  margin-bottom: 10px;
+}
